@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Calculator</title>
+</head>
+<body>
+   <div class="center">
+      <form name="forms">
+         <input type="text" id="display" name="display" disabled>
+         <div class="buttons">
+
+            <input type="button" id="seven" value="7" onclick="val(seven.value)">
+            <input type="button" id="eight" value="8" onclick="val(eight.value)">
+            <input type="button" id="nine" value="9" onclick="val(nine.value)">
+            <input type="button" id="devide" value="/" onclick="val(devide.value)"><br>
+
+            <input type="button" id="four" value="4" onclick="val(four.value)">
+            <input type="button" id="five" value="5" onclick="val(five.value)">
+            <input type="button" id="six" value="6" onclick="val(six.value)">
+            <input type="button" id="mul" value="*" onclick="val(mul.value)"><br>
+
+            <input type="button" id="one" value="1" onclick="val(one.value)">
+            <input type="button" id="two" value="2" onclick="val(two.value)">
+            <input type="button" id="three" value="3" onclick="val(three.value)">
+            <input type="button" id="sub" value="-" onclick="val(sub.value)"><br>
+
+            <input type="button" id="dot" value="." onclick="val(dot.value)">
+            <input type="button" id="zero" value="0" onclick="val(zero.value)">
+            <input type="button" id="add" value="+" onclick="val(add.value)">
+            <input type="button" id="clear" value="C" onclick="clear()"><br>
+
+            <input type="button" id="equal" value="=" onclick="calc()">
+
+         </div>
+      </form>
+   </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
